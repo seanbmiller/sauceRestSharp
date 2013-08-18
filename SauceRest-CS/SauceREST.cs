@@ -58,5 +58,22 @@ namespace SauceRESTClient
                 }
             }
         }
+
+        public string getJobInfo(String jobId)
+        {
+            String result = null;
+            Uri restEndpoint = new Uri(RESTURL + "/v1/" + username + "/jobs/" + jobId);
+            String credentials = Convert.ToBase64String(ASCIIEncoding.ASCII.GetBytes(username + ":" + accessKey));
+            HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(restEndpoint);
+            request.Method = "GET";
+            request.Accept = "application/json";
+            request.Headers.Add("Authorization", "Basic " + credentials);
+            var response = (HttpWebResponse)request.GetResponse();
+            using (var streamReader = new StreamReader(response.GetResponseStream()))
+            {
+               result = streamReader.ReadToEnd();
+            }
+            return result;
+        }
     }
 }
