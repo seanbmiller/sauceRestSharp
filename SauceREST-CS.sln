@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SauceRestTest", "SauceRestTest\SauceRestTest.csproj", "{B7A97BEF-E773-4506-8C44-2BB46045C81A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SauceREST", "SauceRest-CS\SauceREST.csproj", "{FBD4BA16-8EC2-4180-9BB3-93AEB08712BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7A97BEF-E773-4506-8C44-2BB46045C81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A97BEF-E773-4506-8C44-2BB46045C81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A97BEF-E773-4506-8C44-2BB46045C81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A97BEF-E773-4506-8C44-2BB46045C81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD4BA16-8EC2-4180-9BB3-93AEB08712BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD4BA16-8EC2-4180-9BB3-93AEB08712BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD4BA16-8EC2-4180-9BB3-93AEB08712BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD4BA16-8EC2-4180-9BB3-93AEB08712BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
+
+
